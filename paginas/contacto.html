@@ -47,64 +47,46 @@
     </header>
     <main class="mainContacto" >
 
-            <h1 class="tituloP">Contacto </h1>
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto my-5">
+                <h1 class="titulop"> Contacto </h1>
+            </div>
+          </div>
               
-            <form>
-                <fieldset class="formulario">
-                
-                    <label for="motivoDeContacto"> Motivo de contacto</label>
-                    <select name="motivoDeContacto">
-                        <option>Quiero contar mi experiencia para honey blú</option>
-                        <option>Quiero realizar una consulta</option>
-                        <option>Quiero realizar un reclamo</option>
-                    </select>
-                    <br>
-                    <br>
-                    <legend></legend>
-                    <label for="nombre">Ingrese su nombre y apellido:</label>
-                    <input type="text"value=""name="nombre">
-                    <br>
-                    <br>
-                    <label for="mail">Ingrese su mail:</label>
-                    <input type="email" name="mail" id=""value=""> 
-                    <br>
-                    <br>
-                        <textarea name="detalleconsulta" id="" cols="30" rows="10" placeholder="Detallá tu consulta aquí"></textarea>
-                <br>
-                <br>
-                    <input class= "cajaTexto" type="checkbox" name="" id=""value="novedades">Deseo recibir novedades de Honey Blú
-                <br>
-                <br>
-                    <input type="submit"value="Enviar">
-                
+                                       
                 </fieldset>
 
-                <form class="formBoots">
-                    <fieldset disabled>
-                      <legend>Disabled fieldset example</legend>
-                      <div class="mb-3">
-                        <label for="disabledTextInput" class="form-label">Disabled input</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                      </div>
-                      <div class="mb-3">
-                        <label for="disabledSelect" class="form-label"> Motivo de contacto </label>
-                        <select id="disabledSelect" class="form-select">
-                          <option>Quiero contar mi experiencia para honey blú</option>
-                          <option>Quiero realizar una consulta</option>
-                          <option>Quiero realizar un reclamo</option>
-                        </select>
-                      </div>
-                      <div class="mb-3">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                          <label class="form-check-label" for="disabledFieldsetCheck">
-                            Deseo recibir novedades Honey Blú
-                          </label>
-                        </div>
-                      </div>
-                      <button type="submit" class="btn btn-primary">ENVIAR</button>
-                    </fieldset>
-                  </form>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Seleccioná el motivo de contacto</option>
+                  <option value="1">Quiero contar mi experiencia para honey blú</option>
+                  <option value="2">Quiero realizar una consulta o pedido</option>
+                  <option value="3">Quiero realizar un reclamo</option>
+                </select>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class=" pb-5">
+                  <label for="exampleFormControlTextarea1" class="form-label">Detallanos el motivo de contacto</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Deseo recibir novedades de hobey blú
+                  </label>
+                </div>
+
+                <input type="checkbox " class="btn-check" id="btn-check" autocomplete="off">
+                <label class="btn btn-primary mb-5" for="btn-check">Enviar</label>
 
     </main>
 
@@ -126,6 +108,7 @@
     </footer>
 
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
