@@ -12,6 +12,10 @@ body{
     font-size: 62,5%;
     
     }
+.logo {
+    width: 150px;
+    height: 150px;
+}
 
 a {
     text-decoration: none;
@@ -33,7 +37,6 @@ h1{
 .tituloP {
     padding: 10px 10px;
     background-color: #e2d2a8;
-    width: 90%;
     font-family: bodoni;
     text-align: center;
 }
@@ -45,7 +48,7 @@ h1{
 
 p{ 
     font-style:normal;
-    font-family:roboto;
+    font-family: roboto;
     line-height: 120%;
 }
 
@@ -72,7 +75,7 @@ p{
     "headerPrincipal headerPrincipal headerPrincipal "
     "mainIndex mainIndex mainIndex"
     " footer footer footer " ;
-    gap: 10px;
+    
 }
 
 
@@ -96,18 +99,19 @@ grid-area:  mainIndex;
 .divIndex1 img {
     width: 300px;
     height: 300px;
+    border-radius: 4px;
 
 }
 
 .divIndex1 p {
   
-    margin-top: 20px;
-    padding-top: 10px;
+    margin: 15px 15px;
+    padding:10px 10px;
     margin-left: 30px;
     color: black;
-    width: 320px;
+    width: 500px;
     height: 300px;
-    font-size: 125%;
+    font-size: 120%;
     line-height: 30px
 }
 
@@ -154,9 +158,29 @@ text-decoration: none;
 
 }
 
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+
 .contenedorPadreQ {
     height: 250px;
-    width: 95% auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:  1fr 1fr 1fr;
@@ -164,7 +188,7 @@ text-decoration: none;
     "headerPrincipal headerPrincipal headerPrincipal"
     "mainQuienesSomos mainQuienesSomos mainQuienesSomos"
     " footer footer footer" ;
-    gap: 10px; 
+    width: 100% auto;
 }
 
 .mainQuienesSomos {
@@ -186,7 +210,7 @@ text-decoration: none;
 }
 
 .contenedorPadreProd {
-
+    width: 100% auto;
     height: 200px;
     display: grid;
     grid-template-columns: 1fr;
@@ -196,12 +220,11 @@ text-decoration: none;
     " contenedorTituloYSub contenedorTituloYSub contenedorTituloYSub"
     "contenedorGaleriaProd contenedorGaleriaProd contenedorGaleriaProd"
     "footer footer footer" ;
-    gap: 10px; 
 }
 
 .mainGaleriaProd {
     background: linear-gradient( #198754 , #f0e8d6 );
-    width: 100% auto;
+    
 }
 .contenedorTituloYSub {
 
@@ -224,9 +247,9 @@ text-decoration: none;
     flex-wrap: wrap;
 }
 
-.card {
+.cardproductos {
     margin-top: 10px;
-    opacity: 0.9;
+    opacity: 0.8;
 
 }
 
@@ -237,11 +260,15 @@ text-decoration: none;
 }
 
 .mainContacto {
-    background: linear-gradient( #198754 , #f0e8d6 )
-
-    
+    background-image: url('../multimedia/')
     
 
+
+}
+
+.videocontacto {
+    width:200px;
+    height:350px
 }
 
 
@@ -264,7 +291,6 @@ text-decoration: none;
         "headerPrincipal"
         " mainIndex"
         " footer " ;
-        gap: 10px;
     }
 
     .headerPrincipal{
@@ -297,14 +323,15 @@ text-decoration: none;
         
     .divIndex1 p {
           
-            margin-top: 20px;
-            padding-top: 10px;
-            width: 250px;
-            height: 200px;
-            font-size: 14px;
-    
-        }   
+        margin: 20px 20px;
+        padding:10px 10px;
+        width: 250px;
+        height: 200px;
+        font-size: 14px;
+        line-height: 16px
 
+        }   
+     
     
     .footer {
         padding: 0,5rem;
@@ -341,6 +368,26 @@ text-decoration: none;
     .card p {
         font-size: 12px;
     }
+
+    .btn-wsp {
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    bottom:17px;
+    right:17px;
+
+    }
+
+    .imgHB {
+        height: 150px;
+        width: 150px;
+    }
+
+    .contenedorTextoHB p {
+        font-size: 14px;
+
+    }
+    
 
   
 
