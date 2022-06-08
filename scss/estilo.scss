@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-/* */
-
 body{
     color: black;
     font-family:roboto; 
     font-size: 62,5%;
     
     }
+
+/* */
 .logo {
     width: 150px;
     height: 150px;
@@ -222,10 +222,6 @@ text-decoration: none;
     "footer footer footer" ;
 }
 
-.mainGaleriaProd {
-    background: linear-gradient( #198754 , #f0e8d6 );
-    
-}
 .contenedorTituloYSub {
 
     grid-template-areas: contenedorTituloYSub;
@@ -249,7 +245,7 @@ text-decoration: none;
 
 .cardproductos {
     margin-top: 10px;
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
@@ -261,8 +257,6 @@ text-decoration: none;
 
 .mainContacto {
     background-image: url('../multimedia/')
-    
-
 
 }
 
