@@ -1,0 +1,114 @@
+
+@media only screen and (max-width:350px) {
+
+    .contenedorPadreIn { 
+     height: 100px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-template-areas: 
+     "headerPrincipal"
+     " mainIndex"
+     " footer " ;
+
+     .headerPrincipal{
+         grid-area: headerPrincipal;
+         height: 200px;
+ 
+         .logo {
+             width: 80px;
+             height: 80px;
+         }
+     }
+ }
+
+ .mainIndex {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100% auto;
+     padding: 15px 10px;
+     grid-area: mainIndex;
+
+     .divIndex1 {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 10px;
+
+         .divIndex1 img {
+             width: 200px;
+             height: 200px;
+         }
+
+         .divIndex1 p {
+       
+             margin: 20px 20px;
+             padding:10px 10px;
+             width: 250px;
+             height: 200px;
+             font-size: 14px;
+             line-height: 16px
+         } 
+     }
+
+
+ }    
+  
+ 
+ .footer {
+     padding: 0,5rem;
+     grid-area: footer;
+     height: 100%;
+     width: 100% auto;
+     }
+
+ .contenedorPadreQ {
+         height: 250px;
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows:  1fr 1fr 1fr;
+         grid-template-areas: 
+         "headerPrincipal "
+         "mainQuienesSomos "
+         " footer" ;
+         gap: 10px; 
+
+         .contenedorCardsQ {
+             display: flex;
+             flex-direction:column;
+             justify-content:center;
+
+             .card img {
+                 height: 180px;
+                 width: 150px;
+                 }
+
+             .card p {
+                     font-size: 12px;
+                 }
+         }
+     }
+
+ .btn-wsp {
+ width:40px;
+ height:40px;
+ line-height: 40px;
+ bottom:17px;
+ right:17px;
+
+ }
+
+ .imgHB {
+     height: 150px;
+     width: 150px;
+ }
+
+ .contenedorTextoHB p {
+     font-size: 14px;
+
+ }
+
+}

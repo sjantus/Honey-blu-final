@@ -1,0 +1,17 @@
+.headerPrincipal{
+    background: linear-gradient(#e2d2a8, #f0e8d6);
+    grid-area: headerPrincipal;
+ 
+    .logo {
+     width: 150px;
+     height: 150px;
+     }
+ 
+    .navbar li :hover {
+     background-color: $colorverde;
+     color: beige ;
+     border-radius: 3px;
+     
+     }
+ 
+ }
