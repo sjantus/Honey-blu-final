@@ -29,16 +29,15 @@ p{
 }
 
 .tituloP {
+    @extend h1;
     padding: 10px 10px;
     background-color: #e2d2a8;
-    font-family: bodoni;
-    text-align: center;
+
 }
 
 .lead {
-    font-family: roboto;
+    @extend p;
 }
-
 
 
 .btn-wsp{
