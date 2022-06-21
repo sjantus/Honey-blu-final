@@ -24,9 +24,8 @@ p, .lead {
 
 .tituloP {
   padding: 10px 10px;
-  background: #198754;
-  border-radius: 4px;
-  color: white; }
+  background-image: url(../multimedia/banner1.jpg);
+  border-radius: 3px; }
 
 .btn-wsp {
   position: fixed;
@@ -57,68 +56,44 @@ p, .lead {
     color: beige;
     border-radius: 3px; }
 
-.contenedorPadreIn {
-  height: 250px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "headerPrincipal headerPrincipal headerPrincipal " "mainIndex mainIndex mainIndex" " footer footer footer "; }
-  .contenedorPadreIn .mainIndex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100% auto;
-    padding: 30px 50px;
-    grid-area: mainIndex; }
-    .contenedorPadreIn .mainIndex .divIndex1 {
-      display: flex;
-      flex-direction: row;
-      margin-top: 20px;
-      border: outset #198754; }
-      .contenedorPadreIn .mainIndex .divIndex1 p, .contenedorPadreIn .mainIndex .divIndex1 .lead {
-        margin: 15px 15px;
-        padding: 10px 10px;
-        margin-left: 30px;
-        color: black;
-        width: 500px;
-        height: 300px;
-        font-size: 120%;
-        line-height: 30px; }
-    .contenedorPadreIn .mainIndex .divIndex1 img {
-      width: 300px;
-      height: 300px;
-      border-radius: 4px;
-      margin: 15px 15px;
-      padding: 10px 10px;
-      margin-left: 30px; }
+.divIndex img {
+  border-radius: 5px;
+  margin: 15px 15px;
+  padding: 10px 10px; }
+
+.divIndex p, .divIndex .lead {
+  padding: 40px 10px;
+  font-size: 120%;
+  line-height: 30px; }
 
 .footer {
   padding: 1rem;
+  margin-top: 2rem;
   grid-area: footer;
   text-decoration: none;
   background: linear-gradient(#f0e8d6, #e2d2a8); }
-  .footer .footer h3 {
+  .footer h3 {
     text-align: center; }
-  .footer .footer ul {
+  .footer ul {
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 1rem; }
-    .footer .footer ul .footer li {
+    .footer ul li {
       text-decoration: none;
       display: flex;
       flex-direction: row;
       padding-left: 1rem;
       padding-right: 1rem; }
-      .footer .footer ul .footer li .footer img {
+      .footer ul li img {
         width: 40px;
         height: 40px;
         text-decoration: none; }
-      .footer .footer ul .footer li:hover {
+      .footer ul li:hover {
         transform: scale(1.1, 1.1);
         transition: 0.5s; }
-      .footer .footer ul .footer li .footer li a {
+      .footer ul li li a {
         text-decoration: none; }
 
 .contenedorPadreQ {

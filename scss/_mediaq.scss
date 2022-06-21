@@ -1,62 +1,38 @@
 
 @media only screen and (max-width:350px) {
 
-    .contenedorPadreIn { 
-     height: 100px;
-     width: 100%;
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr 1fr 1fr;
-     grid-template-areas: 
-     "headerPrincipal"
-     " mainIndex"
-     " footer " ;
-
+    // No me toma las mediaq//
      .headerPrincipal{
-         grid-area: headerPrincipal;
-         height: 200px;
+         height: 600px;
  
-         .logo {
+        .logo { // Poniendole la clase o solo img, el tamaño del logo no se achica/
              width: 80px;
              height: 80px;
-         }
+        }
      }
- }
+ 
 
- .mainIndex {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: 100% auto;
-     padding: 15px 10px;
-     grid-area: mainIndex;
+    .divIndex { // Tampoco noto que me tome los cambios al bajar el tamaño de la pantalla//
+        margin-top: 10px;
 
-     .divIndex1 {
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         margin-top: 10px;
+         img { 
+            width: 50px;
+            height: 80px;
+        }
 
-         .divIndex1 img {
-             width: 200px;
-             height: 200px;
-         }
-
-         .divIndex1 p {
-       
+         p {
              margin: 20px 20px;
              padding:10px 10px;
-             width: 250px;
-             height: 200px;
+             width: 100px;
+             height: 100px;
              font-size: 14px;
              line-height: 16px
          } 
+
+         
      }
 
 
- }    
-  
  
  .footer {
      padding: 0,5rem;

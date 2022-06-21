@@ -1,42 +1,76 @@
 .footer {
     padding: 1rem;
+    margin-top: 2rem;
     grid-area: footer;
     text-decoration: none;
     background: linear-gradient( #f0e8d6 , #e2d2a8);
-
-    .footer h3 {
+    h3 {
         text-align: center;
     }
-    .footer ul {
+    ul {
         text-decoration: none;
         display:flex;
         flex-direction: row;
         justify-content: center;
         padding: 1rem;
-
-        .footer li  {
+        li  {
             text-decoration: none;
             display:flex;
             flex-direction: row;
             padding-left: 1rem;
             padding-right: 1rem;
-
-            .footer img { 
+            img { 
                 width: 40px;
                 height: 40px;
                 text-decoration: none;
             }
-
             &:hover {
                 transform: scale(1.1 ,1.1);
                 transition: 0.5s ;
             }
-
-            .footer li a {
+            li a {
                 text-decoration: none; 
-            }
+            }  }}}
             
-        }
-    }
-
-}
+            // .footer {
+            //     padding: 1rem;
+            //     grid-area: footer;
+            //     text-decoration: none;
+            //     background: linear-gradient( #f0e8d6 , #e2d2a8);
+            
+            //     .footer h3 {
+            //         text-align: center;
+            //     }
+            //     .footer ul {
+            //         text-decoration: none;
+            //         display:flex;
+            //         flex-direction: row;
+            //         justify-content: center;
+            //         padding: 1rem;                      CODIGO QUE TENIAS ANTES
+            
+            //         .footer li  {
+            //             text-decoration: none;
+            //             display:flex;
+            //             flex-direction: row;
+            //             padding-left: 1rem;
+            //             padding-right: 1rem;
+            
+            //             .footer img { 
+            //                 width: 40px;
+            //                 height: 40px;
+            //                 text-decoration: none;
+            //             }
+            
+            //             &:hover {
+            //                 transform: scale(1.1 ,1.1);
+            //                 transition: 0.5s ;
+            //             }
+            
+            //             .footer li a {
+            //                 text-decoration: none; 
+            //             }
+                        
+            //         }
+            //     }
+            
+            // }

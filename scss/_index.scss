@@ -1,48 +1,26 @@
-.contenedorPadreIn { 
-    height: 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "headerPrincipal headerPrincipal headerPrincipal "
-    "mainIndex mainIndex mainIndex"
-    " footer footer footer " ;
     
-    .mainIndex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100% auto;
-        padding: 30px 50px;
-        grid-area:  mainIndex;
+.divIndex {
+           
+    img {
 
-        .divIndex1 {
-            display: flex;
-            flex-direction: row;
-            margin-top: 20px;
-            border: outset $colorverde;
+        border-radius: 5px; // No me toma esto, si le saco el margin y el padding si lo toma, si lo pongo al final o al principio sigue sin tomarlo.//
+        margin: 15px 15px;
+        padding:10px 10px;
 
-            p {
-  
-                margin: 15px 15px;
-                padding:10px 10px;
-                margin-left: 30px;
-                color: black;
-                width: 500px;
-                height: 300px;
-                font-size: 120%;
-                line-height: 30px
-            }
         }
+            
+    p {
+        padding:40px 10px;
+        font-size: 120%;
+        line-height: 30px;
 
-        .divIndex1 img {
-            width: 300px;
-            height: 300px;
-            border-radius: 4px;
-            margin: 15px 15px;
-            padding:10px 10px;
-            margin-left: 30px;
-        }
+    }
 
-    }    
+   
+
 }
+
+        
+
+     
+
