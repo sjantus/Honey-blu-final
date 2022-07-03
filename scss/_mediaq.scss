@@ -1,81 +1,34 @@
 
 @media only screen and (max-width:350px) {
 
-    // No me toma las mediaq//
      .headerPrincipal{
-         height: 600px;
  
-        .logo { // Poniendole la clase o solo img, el tamaño del logo no se achica/
+        .logo { 
              width: 80px;
              height: 80px;
         }
      }
  
 
-    .divIndex { // Tampoco noto que me tome los cambios al bajar el tamaño de la pantalla//
+    .divIndex1 { 
+
         margin-top: 10px;
 
-         img { 
-            width: 50px;
-            height: 80px;
+        .parrafoIndex1 {
+            height: 25px;
+            font-size: 12px;
+            line-height: 10px;
+        } 
+
+        
+        .imagenPrincipal {
+            height: 150px;
+            width: 100px;
         }
-
-         p {
-             margin: 20px 20px;
-             padding:10px 10px;
-             width: 100px;
-             height: 100px;
-             font-size: 14px;
-             line-height: 16px
-         } 
-
-         
+  
      }
 
 
- 
- .footer {
-     padding: 0,5rem;
-     grid-area: footer;
-     height: 100%;
-     width: 100% auto;
-     }
-
- .contenedorPadreQ {
-         height: 250px;
-         display: grid;
-         grid-template-columns: 1fr;
-         grid-template-rows:  1fr 1fr 1fr;
-         grid-template-areas: 
-         "headerPrincipal "
-         "mainQuienesSomos "
-         " footer" ;
-         gap: 10px; 
-
-         .contenedorCardsQ {
-             display: flex;
-             flex-direction:column;
-             justify-content:center;
-
-             .card img {
-                 height: 180px;
-                 width: 150px;
-                 }
-
-             .card p {
-                     font-size: 12px;
-                 }
-         }
-     }
-
- .btn-wsp {
- width:40px;
- height:40px;
- line-height: 40px;
- bottom:17px;
- right:17px;
-
- }
 
  .imgHB {
      height: 150px;
@@ -87,4 +40,34 @@
 
  }
 
+ .mainContacto {
+    
+    img {
+        width:150px;
+        height:400px
+    }
+
 }
+
+.footer {
+    padding: 0,5rem;
+    grid-area: footer;
+    height: 100%;
+    width: 100% auto;
+
+    }
+
+
+.btn-wsp {
+width:40px;
+height:40px;
+line-height: 40px;
+bottom:17px;
+right:17px;
+
+}
+
+}
+
+
+
