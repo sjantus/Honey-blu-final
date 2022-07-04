@@ -104,7 +104,7 @@ p, .lead {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "headerPrincipal  headerPrincipal headerPrincipal" " contenedorTituloYSub contenedorTituloYSub contenedorTituloYSub" "contenedorGaleriaProd contenedorGaleriaProd contenedorGaleriaProd" "footer footer footer"; }
+  grid-template-areas: "headerPrincipal  headerPrincipal headerPrincipal" "contenedorTituloYSub contenedorTituloYSub contenedorTituloYSub" "contenedorGaleriaProd contenedorGaleriaProd contenedorGaleriaProd" "footer footer footer"; }
   .contenedorPadreProd .contenedorTituloYSub {
     grid-template-areas: contenedorTituloYSub; }
     .contenedorPadreProd .contenedorTituloYSub .contenedorTituloYSub p, .contenedorPadreProd .contenedorTituloYSub .contenedorTituloYSub .lead {
@@ -129,11 +129,9 @@ p, .lead {
   width: 200px;
   height: 200px; }
 
-.mainContacto {
-  background-image: url("../multimedia/"); }
-  .mainContacto img {
-    width: 250px;
-    height: 500px; }
+.mainContacto img {
+  width: 250px;
+  height: 500px; }
 
 @media only screen and (max-width: 350px) {
   .headerPrincipal .logo {
@@ -148,6 +146,14 @@ p, .lead {
     .divIndex1 .imagenPrincipal {
       height: 150px;
       width: 100px; }
+  .imgHB {
+    height: 150px;
+    width: 150px; }
+  .contenedorTextoHB p, .contenedorTextoHB .lead {
+    font-size: 14px; }
+  .mainContacto img {
+    width: 150px;
+    height: 400px; }
   .footer {
     padding: 0,5rem;
     grid-area: footer;
@@ -158,9 +164,4 @@ p, .lead {
     height: 40px;
     line-height: 40px;
     bottom: 17px;
-    right: 17px; }
-  .imgHB {
-    height: 150px;
-    width: 150px; }
-  .contenedorTextoHB p, .contenedorTextoHB .lead {
-    font-size: 14px; } }
+    right: 17px; } }
