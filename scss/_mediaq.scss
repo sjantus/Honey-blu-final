@@ -1,73 +1,124 @@
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:320px) {
 
-     .headerPrincipal{
+    .headerPrincipal{
  
         .logo { 
-             width: 80px;
-             height: 80px;
+             width: 60px;
+             height: 60px;
         }
      }
- 
-
-    .divIndex1 { 
-
-        margin-top: 10px;
-
-        .parrafoIndex1 {
-            height: 25px;
-            font-size: 12px;
-            line-height: 10px;
-        } 
-
-        
-        .imagenPrincipal {
-            height: 150px;
-            width: 100px;
-        }
-  
-     }
 
 
+    .divIndex {
+           
+        img {
+            height: 200px;
+            width: 250px;
+            margin: auto;
+            }
+    }
 
- .imgHB {
+    .imgHB {
      height: 150px;
      width: 150px;
- }
+    }
 
- .contenedorTextoHB p {
-     font-size: 14px;
+    .contenedorTextoHB p {
+        font-size: 14px;
 
- }
+    }
 
- .mainContacto {
+    .mainContacto {
     
-    img {
-        width:150px;
-        height:400px
-    }
-
-}
-
-.footer {
-    padding: 0,5rem;
-    grid-area: footer;
-    height: 100%;
-    width: 100% auto;
+        img {
+            width:150px;
+            height:400px
+        }
 
     }
 
+    .footer {
+        padding: 0,5rem;
+        grid-area: footer;
+        height: 100%;
+        width: 100% auto;
 
-.btn-wsp {
-width:40px;
-height:40px;
-line-height: 40px;
-bottom:17px;
-right:17px;
+        }
+
+
+    .btn-wsp {
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    bottom:17px;
+    right:17px;
+
+    }
+
 
 }
 
+
+
+
+
+@media only screen and (max-width:480px) {
+
+    .headerPrincipal{
+ 
+        .logo { 
+             width: 90px;
+             height: 90px;
+        }
+     }
+
+
+    .divIndex {
+           
+        img {
+            height: 200px;
+            width: 250px;
+            margin: auto;
+            }
+    }
+
+    .imgHB {
+     height: 150px;
+     width: 150px;
+    }
+
+    .contenedorTextoHB p {
+        font-size: 14px;
+
+    }
+
+    .mainContacto {
+    
+        img {
+            width:150px;
+            height:400px
+        }
+
+    }
+
+    .footer {
+        padding: 0,5rem;
+        grid-area: footer;
+        height: 100%;
+        width: 100% auto;
+
+        }
+
+
+    .btn-wsp {
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    bottom:17px;
+    right:17px;
+
+    }
+
+
 }
-
-
-
